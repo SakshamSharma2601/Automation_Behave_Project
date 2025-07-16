@@ -4,7 +4,7 @@ This is a UI automation testing project for a mock e-commerce website "https://a
 
 
 ## Project Summary
-Framework: Behave (BDD)
+Framework: Behave (BDD) <br>
 Language: Python
 Tool: Selenium WebDriver
 Scenarios: 13–14 total

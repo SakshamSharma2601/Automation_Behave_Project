@@ -1,5 +1,23 @@
 
-# OpenCart Automation with Behave + Selenium + Edge
+# E-commerce Website Automation Testing Project
+This is a UI automation testing project for a mock e-commerce website "https://automationexercise.com/" built using **Python**, **Selenium**, and **Behave**
+
+
+## Project Summary
+Framework: Behave (BDD)
+Language: Python
+Tool: Selenium WebDriver
+Scenarios: 13–14 total
+Functionalities Tested: Login, Search, Add to Cart, Register, Logout
+Negative Tests: Invalid Login, Invalid Search
+Reports: HTML report and screenshots included
+Status: Fully functional for most scenarios
+
+
+
+
+
+
 
 ## Setup Instructions
 1. Install packages: `pip install selenium behave`

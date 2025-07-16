@@ -1,0 +1,11 @@
+#ignore python cache
+__pycache__/
+*.pyc 
+
+#ignore venv
+venv/
+
+#ignore all test reports EXCEPT sample files
+reports/*.log
+reports/temp/
+html_reports/temp/

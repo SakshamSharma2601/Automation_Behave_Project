@@ -5,13 +5,13 @@ This is a UI automation testing project for a mock e-commerce website "https://a
 
 ## Project Summary
 Framework: Behave (BDD) <br>
-Language: Python
-Tool: Selenium WebDriver
-Scenarios: 13–14 total
-Functionalities Tested: Login, Search, Add to Cart, Register, Logout
-Negative Tests: Invalid Login, Invalid Search
-Reports: HTML report and screenshots included
-Status: Fully functional for most scenarios
+Language: Python <br>
+Tool: Selenium WebDriver <br>
+Scenarios: 13–14 total <br>
+Functionalities Tested: Login, Search, Add to Cart, Register, Logout<br>
+Negative Tests: Invalid Login, Invalid Search<br>
+Reports: screenshots included<br>
+Status: Fully functional for most scenarios<br>
 
 
 

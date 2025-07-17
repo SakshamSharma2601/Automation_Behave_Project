@@ -1,6 +1,6 @@
 
 # E-commerce Website Automation Testing Project
-This is a UI automation testing project for a mock e-commerce website "https://automationexercise.com/" built using **Python**, **Selenium**, and **Behave**
+This is a UI automation testing project for a mock e-commerce website "https://automationexercise.com/" done using **Python**, **Selenium**, and **Behave**
 
 
 ## Project Summary

@@ -50,16 +50,6 @@ def step_impl(context):
     assert "Account Created!" in context.driver.page_source
     context.driver.quit()
 
-'''@when('I enter invalid email format in the registration form')
-def step_impl(context):
-    common_fields(context)
-    context.driver.find_element(By.XPATH, "//input[@data-qa='signup-email']").send_keys(INVALID_EMAIL)
-
-@then('I should see an invalid email format error')
-def step_impl(context):
-    assert "Invalid email address" in context.driver.page_source
-    context.driver.quit()'''
-
 @when('I enter existing email in the registration form')
 def step_impl(context):
     common_fields(context)

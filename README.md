@@ -47,8 +47,8 @@ UI Functional Testing – Buttons, links, forms, layout visibility<br>
 ## Note on Register Functionality
 The registration functionality (`register.feature`) is designed to work with a **unique username/email** and will **only run successfully once** with the provided data.<br>
 To re-run the registration test:
-- Manually update the username/email in the test data
-- Or maybe generate a random/unique user every time
+- Manually update the username/email in the test data<br>
+- Or maybe generate a random/unique user every time <br>
 It is expected behavior and not a bug.
 
 

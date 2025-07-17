@@ -8,22 +8,40 @@ Framework: Behave (BDD) <br>
 Language: Python <br>
 Tool: Selenium WebDriver <br>
 Scenarios: 13–14 total <br>
-Functionalities Tested: Login, Search, Add to Cart, Register, Logout<br>
-Negative Tests: Invalid Login, Invalid Search<br>
+Functionalities Tested: Login, Search, Cart, Register, Checkout <br>
 Reports: screenshots included<br>
 Status: Fully functional for most scenarios<br>
+Version control: Git and Github
 
-
-
-
-
-
+## Types of Testing Covered
+Positive Testing* – Valid login, registration, add to cart <br>
+Negative Testing– Invalid login, empty search input<br>
+End-to-End Testing – Full flow: Register → Login → Add to Cart → Checkout<br>
+UI Functional Testing – Buttons, links, forms, layout visibility<br>
 
 ## Setup Instructions
 1. Install packages: `pip install selenium behave`
 2. Run tests: `behave`
 3. Ensure Microsoft Edge is installed and Edge WebDriver is in PATH
 
-## Included Features
-- Login (valid/invalid)
-- Add to cart functionality
+## How to Run the Tests
+1. **Clone the repository**:
+   ```
+   git clone https://github.com/yourusername/ecommerce-automation.git
+   cd ecommerce-automation
+   ```
+2. **Create a virtual environment**:
+   ```
+   python -m venv venv
+   source venv/bin/activate  # or venv\Scripts\activate on Windows
+   ```
+3. **Install dependencies**:
+   ```
+   pip install -r requirements.txt
+   ```
+4. **Run tests**:
+   ```
+   behave
+   ```
+
+

@@ -27,7 +27,7 @@ UI Functional Testing – Buttons, links, forms, layout visibility<br>
 ## How to Run the Tests
 1. **Clone the repository**:
    ```
-   git clone https://github.com/yourusername/ecommerce-automation.git
+   git clone https://github.com/SakshamSharma2601/Automation_Behave_Project.git
    cd ecommerce-automation
    ```
 2. **Create a virtual environment**:
@@ -43,5 +43,12 @@ UI Functional Testing – Buttons, links, forms, layout visibility<br>
    ```
    behave
    ```
+   <br>
+## Note on Register Functionality
+The registration functionality (`register.feature`) is designed to work with a **unique username/email** and will **only run successfully once** with the provided data.<br>
+To re-run the registration test:
+- Manually update the username/email in the test data
+- Or maybe generate a random/unique user every time
+It is expected behavior and not a bug.
 
 
